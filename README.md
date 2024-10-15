@@ -5,10 +5,10 @@
 I den här övningen används HTML-element tillsammans med Tailwind och Sass för att bygga upp en nyhetssida!
 
 ### Steg 1. Gör en plan! 
-Läs igenom instruktionerna och skapa en gemensam förståelse för uppgiften. Skapa gärna ett design-dokument för att rita upp layouten i t ex Figma. 
+Läs igenom instruktionerna och skapa en gemensam förståelse för uppgiften (skapa gärna ett design-dokument för att rita upp layouten i t ex Figma). Skapa sedan ett repo i GitHub som alla i gruppen har tillgång till. 
 
 ### Steg 2. Uppmärkning av enskilda element
-Börja med att skapa content till minst 2 stycken artiklar. 
+Börja med att skapa content till 2 stycken artiklar. 
 
 Använd följande element:
 
@@ -49,7 +49,7 @@ info@garlicnews.com
 +850 555-1337
 ```
 
-### Steg 4. Sass 
+### Steg 4. Sass - preprocessor
 Använd Sass för att bygga upp struktur och logik till er CSS. 
 * Börja med att skapa en fil som ska innehålla den huvudsakliga stylingen, döp den till ```main.scss```
 
@@ -95,5 +95,5 @@ article {
 sass main.scss style.css
 ```
 
-### Steg 5. Tailwind
-Utility first styling 
+### Steg 5. Tailwind - ramverk
+Använd Tailwind för att styla enskilda element (testa exempelvis att styla 
