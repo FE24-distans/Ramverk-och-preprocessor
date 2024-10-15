@@ -50,10 +50,11 @@ info@garlicnews.com
 ```
 
 ### Steg 4. Sass 
-Använd Sass för att bygga upp struktur och logik till er CSS. Börja med att skapa en fil som ska innehålla den huvudsakliga stylingen, döp den till ```main.scss```
+Använd Sass för att bygga upp struktur och logik till er CSS. 
+* Börja med att skapa en fil som ska innehålla den huvudsakliga stylingen, döp den till ```main.scss```
 
-* Skapa en fil som döps till ```_variables.scss```
-Skapa variabler för primary color, secondary color och fonter. Importera och använd dessa i ```main.scss```
+* Skapa sedan en fil som döps till ```_variables.scss```
+I filen skapar ni variabler för primary color, secondary color och fonter. Importera och använd dessa i ```main.scss```
 
 ```
 @import 'variables';
@@ -64,14 +65,27 @@ body {
 }
 ```
 
-* Skapa en fil som döps till ```_mixins.scss```
-Skapa Mixins för återanvändbar styling som:
+* Skapa ytterligare en fil som döps till ```_mixins.scss```
+Använd Mixins för att skapa återanvändbar styling som:
 
 ```
 @mixin flex-center {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+```
+
+Importera era mixins och använd i ```main.scss```
+
+```
+@import 'variables';
+@import 'mixins';
+
+article {
+  font-family: $font-stack;
+  background-color: $secondary-color;
+  @include flex-center;
 }
 ```
 
