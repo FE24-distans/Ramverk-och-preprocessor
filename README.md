@@ -2,7 +2,7 @@
 ![News flash](https://i.pinimg.com/originals/8b/e0/e0/8be0e0113eabf70ce1c42efdef2298d4.png)
 
 # News flash :newspaper:
-I den här övningen används HTML-element tillsammans med Tailwnind och Sass för att bygga upp en nyhetssida!
+I den här övningen används HTML-element tillsammans med Tailwind och Sass för att bygga upp en nyhetssida!
 
 ### Steg 1. Gör en plan! 
 Läs igenom instruktionerna och skapa en gemensam förståelse för uppgiften. Skapa gärna ett design-dokument för att rita upp layouten i t ex Figma. 
