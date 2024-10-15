@@ -96,4 +96,6 @@ sass main.scss style.css
 ```
 
 ### Steg 5. Tailwind - ramverk
-Använd Tailwind för att styla enskilda element (testa exempelvis att styla 
+Använd Tailwind för att styla enskilda element (testa exempelvis att lägga en bild som bakgrund i en av "boxarna"). 
+
+Lycka till! :)
