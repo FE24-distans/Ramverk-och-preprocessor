@@ -89,6 +89,11 @@ article {
 }
 ```
 
+### Skriv kommandot nedan i terminalen för att kompilera er Sass till CSS:
+
+```
+sass main.scss style.css
+```
 
 ### Steg 5. Tailwind
 Utility first styling 
