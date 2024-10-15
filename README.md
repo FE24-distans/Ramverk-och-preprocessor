@@ -1,4 +1,3 @@
-### Övning i Tailwind och Sass
 
 ![News flash](https://i.pinimg.com/originals/8b/e0/e0/8be0e0113eabf70ce1c42efdef2298d4.png)
 
@@ -51,9 +50,30 @@ info@garlicnews.com
 ```
 
 ### Steg 4. Sass 
-Använd Sass för att bygga upp struktur och logik till er CSS. 
-Skapa variabler för 
-Mixins
+Använd Sass för att bygga upp struktur och logik till er CSS. Börja med att skapa en fil som ska innehålla den huvudsakliga stylingen, döp den till ```main.scss```
+
+* Skapa en fil som döps till ```_variables.scss```
+Skapa variabler för primary color, secondary color och fonter. Importera och använd dessa i ```main.scss```
+
+```
+@import 'variables';
+
+body {
+  font-family: $font-stack;
+  background-color: $secondary-color;
+}
+```
+
+* Skapa en fil som döps till ```_mixins.scss```
+Skapa Mixins för återanvändbar styling som:
+
+```
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+```
 
 
 ### Steg 5. Tailwind
